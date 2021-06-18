@@ -1,9 +1,13 @@
 import SbEditable from 'storyblok-react'
 import Teaser from './teaser'
+import Grid from './grid'
+import Feature from './feature'
 import React from "react"
 
 const Components = {
   'teaser': Teaser,
+  'grid': Grid,
+  'feature': Feature,
 }
 
 const DynamicComponent = ({ blok }) => {
